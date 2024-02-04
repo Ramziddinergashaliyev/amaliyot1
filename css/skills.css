@@ -1,0 +1,85 @@
+.skills {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+}
+.slills-text {
+  font-size: 40px;
+  text-align: center;
+  padding: 40px 0px 30px;
+}
+.skills__left {
+  width: 34%;
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.skills__right {
+  width: 66%;
+}
+
+.skills__right__cards {
+  display: flex;
+  gap: 20px;
+}
+
+
+.skills__right__card {
+  background-color: #F5F5F5;
+  width: 66%;
+  max-height: 400px;
+  padding: 20px;
+}
+.skills__right__cardes {
+  background-color: #F5F5F5;
+  width: 66%;
+  max-height: 400px;
+  padding: 20px;
+}
+
+.skills__right__img {
+  width: 80%;
+  height: 30%;
+  object-fit: cover;
+}
+
+.skills__right__bottom {
+  display: flex;
+  margin-top: 20px;
+  background-color: #F5F5F5;
+  padding: 20px;
+}
+
+.skills__bottom__img {
+  height: 100%;
+  width: 100%;
+}
+
+.english__lorning {
+  font-size: 30px;
+}
+
+.english__lorning__text {
+  font-size: 18px;
+  color: gray;
+  padding: 20px 0px;
+}
+
+.skills__btn {
+  color: white;
+  font-size: 16px;
+  padding: 10px 30px;
+  background-color: #263238;
+  border-radius: 5px;
+  margin-bottom: 10px
+}
+
+.skills__btn:hover {
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: 400;
+  border: 2px solid var(--primary-color);
+  box-shadow: 7px 6px var(--primary-color), 5px 5px 10px var(--text-color);
+  transition: 0.5s;
+}

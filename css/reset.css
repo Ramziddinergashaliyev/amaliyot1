@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*,*::after,::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --container-width: 1140px;
+  --primary-color: #263238;
+  --text-color:gray;
+}
+
+
+a {
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media (min-width:1440px) {
+  .container {
+    width: var(--container-width);
+  }
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bactop {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  background: var(--text-color);
+  font-size: 22px;
+  padding:16px 20px;
+  border-radius: 50%;
+  display: none;
+}
+
+.show-bactop{
+  display: block !important;
+}
